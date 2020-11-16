@@ -266,6 +266,15 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  continual-learning:
+    output: true
+    permalink: /paper/:collection/:path/
+  nlp:
+    output: true
+    permalink: /paper/:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -279,3 +288,26 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _continual-learning
+  - scope:
+      path: ""
+      type: continual-learning
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _nlp
+  - scope:
+      path: ""
+      type: nlp
+    values:
+      layout: single
+      author_profile: false
+      share: true
