@@ -267,6 +267,7 @@ compress_html:
 
 
 # Collections
+collections_dir: paper
 collections:
   continual-learning:
     output: true
