@@ -97,7 +97,7 @@ author:
   avatar           : "/assets/images/bio.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "sleepy kitty"
   location         : "Korea"
-  email            : "pjhh8888@gmail.com"
+  email            : # "pjhh8888@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
