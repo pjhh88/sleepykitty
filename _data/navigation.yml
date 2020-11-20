@@ -1,6 +1,8 @@
 # main links
 main:
+  - title: "About"
+    url: /about/
   - title: "NLP"
-    url: /paper/nlp/
+    url: /categories/nlp/
   - title: "Continual Learning"
-    url: /paper/continual-learning/
+    url: /categories/continual-learning/
